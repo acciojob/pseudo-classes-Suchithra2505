@@ -8,10 +8,9 @@
 }
 
 .parent > p:nth-child(2){
-	color:blueviolet;
-	background-color:papayawhip;
+	color:black;
 }
-.parent > p:last-child{
+.parent > p:nth-child(4){
 	color:red;
 	background-color:papayawhip;
 }
@@ -27,4 +26,7 @@
 .parent > ul> li:nth-last-child{
 	font-size:22px;
 }
-.parent >ul >li:nth-last-child(-n+3){background-color:pink;}
+.parent > ul> li:nth-last-child(even){
+	background-color:grey;
+}
+.parent >ul >li:nth-last-child(3){background-color:pink;}
