@@ -12,7 +12,7 @@
 }
 .parent > p:nth-child(4){
 	color:red;
-	background-color:papayawhip;
+	
 }
 .parent > ul> li:nth-child(odd) {background-color:white;}
 .parent > li{
