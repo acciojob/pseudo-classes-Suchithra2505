@@ -3,9 +3,10 @@
     background: rgb(135, 206, 235);
 }
 .parent > p:first-child{
-	color:white;
+	color:ghostwhite;
 	background-color:black;
 }
+
 .parent > p:nth-child(2){
 	color:blueviolet;
 	background-color:papayawhip;
@@ -20,7 +21,10 @@
 	padding:10px 10px 10px 10px;
 	background-color:grey;
 }
-.parent > ul> li:nth-first-child,nth-last-child{
+.parent > ul> li:nth-first-child{
+	font-size:22px;
+}
+.parent > ul> li:nth-last-child{
 	font-size:22px;
 }
 .parent >ul >li:nth-last-child(-n+3){background-color:pink;}
