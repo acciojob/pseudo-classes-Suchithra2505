@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+:root {
+    background: rgb(135, 206, 235);
+}
+.parent > p:first-child{
+	color:white;
+	background-color:black;
+}
+.parent > p:nth-child(2){
+	color:blueviolet;
+	background-color:papayawhip;
+}
+.parent > p:last-child{
+	color:red;
+	background-color:papayawhip;
+}
+.parent > ul> li:nth-child(odd) {background-color:white;}
+.parent > li{
+	width:50%;
+	padding:10px 10px 10px 10px;
+	background-color:grey;
+}
+.parent > ul> li:nth-first-child,nth-last-child{
+	font-size:22px;
+}
+.parent >ul >li:nth-last-child(-n+3){background-color:pink;}
